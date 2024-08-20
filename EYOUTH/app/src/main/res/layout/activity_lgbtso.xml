@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lgbtso">
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="296dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Back"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton32" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="170dp"
+        android:text="Sexual Orientation"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="14dp"
+        android:text="LGBTQ+"
+        android:textColor="#FB439E"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView51"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton21"
+        android:layout_width="159dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton26"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView51"
+        app:srcCompat="@drawable/gay" />
+
+    <ImageButton
+        android:id="@+id/imageButton24"
+        android:layout_width="145dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="12dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton29"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton21"
+        app:layout_constraintTop_toBottomOf="@+id/textView51"
+        app:srcCompat="@drawable/lesbian" />
+
+    <ImageButton
+        android:id="@+id/imageButton26"
+        android:layout_width="153dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton30"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton21"
+        app:srcCompat="@drawable/asexual" />
+
+    <ImageButton
+        android:id="@+id/imageButton29"
+        android:layout_width="153dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="12dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton31"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton26"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton24"
+        app:srcCompat="@drawable/bisex" />
+
+    <ImageButton
+        android:id="@+id/imageButton30"
+        android:layout_width="157dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="9dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton32"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton31"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton26"
+        app:srcCompat="@drawable/pansexual" />
+
+    <ImageButton
+        android:id="@+id/imageButton31"
+        android:layout_width="141dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="9dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton34"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton30"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton29"
+        app:srcCompat="@drawable/nonbinary" />
+
+    <ImageButton
+        android:id="@+id/imageButton32"
+        android:layout_width="161dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="42dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/button21"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton30"
+        app:srcCompat="@drawable/intersex" />
+
+    <ImageButton
+        android:id="@+id/imageButton34"
+        android:layout_width="143dp"
+        android:layout_height="109dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="130dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton32"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton31"
+        app:srcCompat="@drawable/transexual2" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GAY"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton21"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton21"
+        app:layout_constraintStart_toStartOf="@+id/imageButton21"
+        app:layout_constraintTop_toTopOf="@+id/imageButton21" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LESBIAN"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton24"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton24"
+        app:layout_constraintStart_toStartOf="@+id/imageButton24"
+        app:layout_constraintTop_toTopOf="@+id/imageButton24" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ASEXUAL"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton26"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton26"
+        app:layout_constraintStart_toStartOf="@+id/imageButton26"
+        app:layout_constraintTop_toTopOf="@+id/imageButton26" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BISEXUAL"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton29"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton29"
+        app:layout_constraintStart_toStartOf="@+id/imageButton29"
+        app:layout_constraintTop_toTopOf="@+id/imageButton29" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PANSEXUAL"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton30"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton30"
+        app:layout_constraintStart_toStartOf="@+id/imageButton30"
+        app:layout_constraintTop_toTopOf="@+id/imageButton30" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NON-BINARY"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton31"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton31"
+        app:layout_constraintStart_toStartOf="@+id/imageButton31"
+        app:layout_constraintTop_toTopOf="@+id/imageButton31" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INTERSEXUAL"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton32"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton32"
+        app:layout_constraintStart_toStartOf="@+id/imageButton32"
+        app:layout_constraintTop_toTopOf="@+id/imageButton32" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRANSEXUAL"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton34"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton34"
+        app:layout_constraintStart_toStartOf="@+id/imageButton34"
+        app:layout_constraintTop_toTopOf="@+id/imageButton34" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

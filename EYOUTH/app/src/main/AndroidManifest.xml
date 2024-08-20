@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eyouth">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EYOUTH">
+        <activity
+            android:name=".OthersT"
+            android:exported="false" />
+        <activity
+            android:name=".OthersMF5"
+            android:exported="false" />
+        <activity
+            android:name=".OthersMF4"
+            android:exported="false" />
+        <activity
+            android:name=".OthersMF3"
+            android:exported="false" />
+        <activity
+            android:name=".others_mf2"
+            android:exported="false" />
+        <activity
+            android:name=".OthersMF"
+            android:exported="false" />
+        <activity
+            android:name=".Others"
+            android:exported="false" />
+        <activity
+            android:name=".lgbtgi"
+            android:exported="false" />
+        <activity
+            android:name=".lgbtso"
+            android:exported="false" />
+        <activity
+            android:name=".lgbt"
+            android:exported="false" />
+        <activity
+            android:name=".STDsMC"
+            android:exported="false" />
+        <activity
+            android:name=".stdsCM"
+            android:exported="false" />
+        <activity
+            android:name=".STDs"
+            android:exported="false" />
+        <activity
+            android:name=".BirthControlOM"
+            android:exported="false" />
+        <activity
+            android:name=".BirthControlPM"
+            android:exported="false" />
+        <activity
+            android:name=".BirthControlBM"
+            android:exported="false" />
+        <activity
+            android:name=".BirthControlHM"
+            android:exported="false" />
+        <activity
+            android:name=".BirthControlIC"
+            android:exported="false" />
+        <activity
+            android:name=".BirthControl"
+            android:exported="false" />
+        <activity
+            android:name=".selection"
+            android:exported="false" />
+        <activity
+            android:name=".TopicSelection"
+            android:exported="false" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LogIn"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.EYOUTH.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BirthControlBM">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="19dp"
+        android:text="BIRTH CONTROL"
+        android:textColor="#FB439E"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="210dp"
+        android:layout_marginBottom="28dp"
+        android:text="Barrier Methods"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="297dp"
+        android:layout_marginBottom="11dp"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton25" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="162dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton23"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        app:srcCompat="@drawable/malecondom1" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="163dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton11"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        app:srcCompat="@drawable/femalecondom" />
+
+    <ImageButton
+        android:id="@+id/imageButton22"
+        android:layout_width="161dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton23"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton12"
+        app:srcCompat="@drawable/diapraghm3" />
+
+    <ImageButton
+        android:id="@+id/imageButton23"
+        android:layout_width="163dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton25"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton11"
+        app:srcCompat="@drawable/spongeee" />
+
+    <ImageButton
+        android:id="@+id/imageButton25"
+        android:layout_width="175dp"
+        android:layout_height="154dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton22"
+        app:srcCompat="@drawable/spermicideee" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MALE CONDOM"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton11"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton11"
+        app:layout_constraintStart_toStartOf="@+id/imageButton11"
+        app:layout_constraintTop_toTopOf="@+id/imageButton11" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FEMALE \nCONDOM"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton12"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton12"
+        app:layout_constraintStart_toStartOf="@+id/imageButton12"
+        app:layout_constraintTop_toTopOf="@+id/imageButton12" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPONGE"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton23"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton23"
+        app:layout_constraintStart_toStartOf="@+id/imageButton23"
+        app:layout_constraintTop_toTopOf="@+id/imageButton23" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="121dp"
+        android:layout_height="23dp"
+        android:text="DIAPRAGHM"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton22"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton22"
+        app:layout_constraintStart_toStartOf="@+id/imageButton22"
+        app:layout_constraintTop_toTopOf="@+id/imageButton22" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPERMICIDE"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton25"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton25"
+        app:layout_constraintStart_toStartOf="@+id/imageButton25"
+        app:layout_constraintTop_toTopOf="@+id/imageButton25" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
